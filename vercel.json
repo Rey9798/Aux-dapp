@@ -1,3 +1,4 @@
+
 {
   "headers": [
     {
@@ -5,7 +6,7 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:;"
+          "value": "script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com; object-src 'none'"
         }
       ]
     }
